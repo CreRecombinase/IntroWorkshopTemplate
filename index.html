@@ -12,9 +12,7 @@
     <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap-theme.css" />
     <!-- <link rel="stylesheet" type="text/css" href="/stylesheetsassets/lesson.css" /> -->
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+
 
     <title>2017-09-23-introR by Nick Knoblauch and Arjun Biddanda</title>
   </head>
@@ -24,7 +22,6 @@
       <div class="inner">
         <h1>Introduction to R</h1>
         <h2>A Software Carpentry workshop for UChicago BSD researchers</h2>
-        <!-- <a href="https://github.com/jdblischak/2016-09-14-introR" class="button"><small>View project on</small> GitHub</a> -->
         <h2>Saturday-Sunday, Sep 23-24, 2017</h2>
       </div>
     </header>
@@ -47,9 +44,8 @@
 <h2 id ="links">Useful links</h2>
 
 <ul>
-  <!-- <li>Please complete -->
-  <!-- the <a href="https://docs.google.com/forms/d/e/1FAIpQLSei3EpbTYTbECM6FqI1QQzIC5d-nzbQfWc3idOvRNudXr3m_Q/viewform">post-workshop -->
-  <!-- survey</a>.</li> -->
+  <li>Please complete
+  the <a href="https://docs.google.com/forms/d/e/1FAIpQLSei3EpbTYTbECM6FqI1QQzIC5d-nzbQfWc3idOvRNudXr3m_Q/viewform"> pre-workshop survey</a>.</li>
   <!-- <li>R script <a href="session-01.R">session-01.R</a> from first session.</li> -->
   <!-- <li>R script <a href="session-02.R">session-02.R</a> from second session.</li> -->
   <!-- <li>R script <a href="session-03.R">session-03.R</a> from second session.</li> -->
@@ -157,7 +153,7 @@
   <strong>Contact</strong>:
   Please mail
 
-  <a href='mailto:abiddanda@uchicago.edu'>abiddanda@uchicago.edu</a> or 
+  <a href='mailto:abiddanda@uchicago.edu'>abiddanda@uchicago.edu</a> or
       <a href='mailto:nwknoblauch@uchicago.edu'>nwknoblauch@uchicago.edu</a>
   for more information.
 </p>
@@ -256,6 +252,11 @@
 
 <hr/>
 
+
+
+
+
+
 <h2 id="setup">Setup</h2>
 
 
@@ -280,12 +281,13 @@
 
   <div class="row">
     <div class="col-md-4">
-      <h4 id="shell-windows">Windows</h4>
+      <h4 id="shell-windows"> Windows </h4>
       <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
+
       <ol>
         <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
         <li>Run the installer and follow the steps bellow:
-          <ol>
+          <ol style="font-size:1em">
             <!-- Git 2.8.2 Setup -->
             <!-- Information -->
             <li>Click on "Next".</li>
@@ -323,18 +325,19 @@
         <li>
           If your "HOME" environment variable is not set (or you don't know what this is):
           <ol>
-            <li>Open command prompt (Open Start Menu then type <code>cmd</code> and press [Enter])</li>
+            <li> Open command prompt (Open Start Menu then type <code>cmd</code> and press [Enter])</li>
             <li>
               Type the following line into the command prompt window exactly as shown:
               <p><code>setx HOME "%USERPROFILE%"</code></p>
             </li>
-            <li>Press [Enter], you should see <code>SUCCESS: Specified value was saved.</code></li>
-            <li>Quit command prompt by typing <code>exit</code> then pressing [Enter]</li>
+            <li> Press [Enter], you should see <code>SUCCESS: Specified value was saved. </code></li>
+            <li> Quit command prompt by typing <code>exit</code> then pressing [Enter] </li>
           </ol>
         </li>
       </ol>
       <p>This will provide you with both Git and Bash in the Git Bash program.</p>
     </div>
+
     <div class="col-md-4">
       <h4 id="shell-macosx">Mac OS X</h4>
       <p>
@@ -508,7 +511,7 @@
   </div>
 </div> <!-- End of 'R' section. -->
 
-
+<!--
 <div id="r-packages">
   <h3>R packages</h3>
   <p>
@@ -520,7 +523,7 @@
     </ul>
   </p>
 
-</div>
+</div> -->
 
 
 

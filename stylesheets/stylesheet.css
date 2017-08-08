@@ -747,8 +747,8 @@ ul {
 ol {
   list-style-position: inside;
   list-style: decimal;
-  padding-left: 3px;
-  font-size: 22px;
+  padding-left: 1em;
+  font-size: 16px;
 }
 
 dl dd {
@@ -893,4 +893,3 @@ footer a:hover {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) { }
-
