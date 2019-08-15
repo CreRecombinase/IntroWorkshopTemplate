@@ -7,6 +7,8 @@ and name the repo something like `2019-01-12-chicago`
 
 Next change the info in `index.html` to match the info for the workshop
 
+Finally enable github pages for the repo (if not already enabled) : [more info](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages)
+
 There is also a `docx` of a flyer in `flyer` that you can use (you'll want to change out the date and the `bit.ly` link
 
 ## Things you'll want to update in the `index.html`
